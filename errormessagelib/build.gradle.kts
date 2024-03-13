@@ -63,9 +63,9 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "errormessagelib"
-            artifactId = "errormessagelib"
-            version = "1.1.0"
+            groupId = "com.github.cbb-intelliswift"
+            artifactId = "ErrorMessagesAndroid"
+            version = "1.1.1"
 
             afterEvaluate {
                 from(components["release"])
