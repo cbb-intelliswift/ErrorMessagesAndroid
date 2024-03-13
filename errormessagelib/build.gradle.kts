@@ -65,7 +65,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "errormessagelib"
             artifactId = "errormessagelib"
-            version = "1.0.5"
+            version = "1.1.0"
 
             afterEvaluate {
                 from(components["release"])
