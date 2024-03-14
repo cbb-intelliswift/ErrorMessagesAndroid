@@ -37,12 +37,17 @@ This is customise  android library to display Error, Message and Loading.
    5. Method you can use to show error message
 
       showMessage(...) // show suitable UI for a message
+      
       showError(...) // show suitable UI for an error
+      
       showInternetError(...) // show suitable UI for an Internet not found error
+      
       showNoData(...) // show suitable UI for Data Not Available
+      
       showLoading(...) // show suitable UI initializing loading
 
       Install
+      
       https://www.jitpack.io/#cbb-intelliswift/ErrorMessagesAndroid/1.1.1
    
    
